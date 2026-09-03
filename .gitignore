@@ -1,0 +1,29 @@
+# C++ — только .cpp нужны, остальное игнорируем
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.lib
+*.exp
+vc*.pdb
+
+# Visual Studio мусор
+.vs/
+x64/
+x86/
+Debug/
+Release/
+*.suo
+*.user
+*.VC.db
+
+# C# — игнорируем всё
+1 лаба/C#/
+
+# Go — игнорируем всё
+1 лаба/go/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
