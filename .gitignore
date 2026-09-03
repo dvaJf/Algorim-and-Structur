@@ -9,7 +9,6 @@ vc*.pdb
 
 # Visual Studio мусор
 .vs/
-.vscode/
 x64/
 x86/
 Debug/
