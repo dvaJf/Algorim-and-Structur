@@ -11,3 +11,4 @@ def InsertionSort(a):
 
 a = InsertionSort(list(map(int, input().split())))
 print(*a)
+

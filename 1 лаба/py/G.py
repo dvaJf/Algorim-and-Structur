@@ -13,3 +13,4 @@ def CountSort(a):
 b = list(map(int, input().split()))
 CountSort(b)
 print(*b)
+

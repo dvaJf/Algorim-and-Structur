@@ -18,3 +18,4 @@ m.sort(key=lambda p: p.dist)
 
 for p in m:
     print(p.x, p.y)
+

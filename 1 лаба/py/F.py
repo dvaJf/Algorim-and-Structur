@@ -19,3 +19,4 @@ def qick(a):
 a = int(input())
 b = list(map(int, input().split()))
 print(*qick(b))
+

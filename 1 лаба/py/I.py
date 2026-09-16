@@ -21,3 +21,4 @@ def solve(a, b):
 a = input()
 b = input()
 print(solve(a, b))
+

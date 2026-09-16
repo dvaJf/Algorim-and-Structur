@@ -7,3 +7,4 @@ for i in range(2, n):
     a[i // 2] = temp
 
 print(*a)
+

@@ -14,3 +14,4 @@ def BubbleSort(b):
 a = input()
 b = BubbleSort(list(map(int, input().split())))
 print(b)
+

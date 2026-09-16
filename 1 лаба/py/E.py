@@ -9,6 +9,7 @@ def splitt(arr):
     return merge(l, r)
 
 
+
 def merge(l, r):
     res = []
     i = j = 0

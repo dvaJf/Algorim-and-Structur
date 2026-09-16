@@ -14,3 +14,4 @@ def SelectionSort(b):
 
 b = SelectionSort(list(map(int, input().split())))
 print(*b)
+
