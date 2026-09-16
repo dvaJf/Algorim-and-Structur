@@ -8,10 +8,8 @@ def qick(a):
     for x in a:
         if x < b:
             l.append(x)
-    for x in a:
         if x == b:
             mid.append(x)
-    for x in a:
         if x > b:
             r.append(x)
 
