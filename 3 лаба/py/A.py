@@ -4,10 +4,9 @@ class stek:
         self.z = []
         self.c = 0
 
-    def push(self, k, n):
-        self.c += n
-        for x in range(n):
-            self.z.append(k)
+    def push(self, k):
+        self.c += 1
+        self.z.append(k)
         print("ok")
 
     def pop(self):
@@ -38,7 +37,7 @@ while True:
     a = z[0]
     if a == "push":
         n = int(z[1])
-        s.push(n, 1)
+        s.push(n)
     elif a == "pop":
         s.pop()
     elif a == "back":

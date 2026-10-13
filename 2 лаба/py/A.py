@@ -3,12 +3,12 @@ a = list(map(int, input().split()))
 q = list(map(int, input().split()))
 
 for x in q:
-    l=0
-    r=n-1
+    l = 0
+    r = n-1
     f = "NO"
-    while l<=r:
+    while l <= r:
         mid = (l+r)//2
-        
+
         if a[mid] == x:
             f = "YES"
             break
