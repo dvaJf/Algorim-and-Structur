@@ -1,3 +1,5 @@
+# [Курсач](https://github.com/dvaJf/lsh)
+
 ## [Сортировки](1%20лаба/README.md)
 
 ## [Бинарный поиск](2%20лаба/README.md)
