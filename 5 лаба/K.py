@@ -120,8 +120,8 @@ class derevo:
 
         if node.k >= k:
             return self._n(node.l, k, node.k)
-        else:
-            return self._n(node.r, k, node1)
+
+        return self._n(node.r, k, node1)
 
 
 tree = derevo()

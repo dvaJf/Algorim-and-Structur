@@ -2,7 +2,7 @@ import heapq
 
 n, m = map(int, input().split())
 start = {1: n}
-end = {n: 1}
+end = {n: 1}                          
 h = [(-n, 1)]
 a = {}
 res = []
